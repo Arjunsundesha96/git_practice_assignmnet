@@ -1,4 +1,5 @@
 function checkPrime(number){
+
 	let factorial=0;
 	for(let i=1; i<=number/2; i++){
 		if(number %i == 0){
@@ -17,7 +18,7 @@ let number =11;
 
 let ans =checkPrime(number) ;
 if(ans == true){
-	console.log("prime");
+	console.log( "is a prime");
 }else{
 	console.log("Not a Prime");
 }
