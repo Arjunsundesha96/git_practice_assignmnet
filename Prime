@@ -1,12 +1,13 @@
 function checkPrime(number){
-	let factor=0;
+
+	let factorial=0;
 	for(let i=1; i<=number/2; i++){
 		if(number %i == 0){
-			factor++;
+			factorial++;
 		}
 	}
 	
-if(factor==2){
+if(factorial==2){
 	return true;
 }
 return false;
